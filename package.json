@@ -1,0 +1,20 @@
+{
+  "name": "local-gov-web",
+  "version": "1.0.0",
+  "description": "このプロジェクトは、勉強用です。 仮想の自治体ウェブサイトを想定してHTMLコーディングを行っています。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss build src/main.css -o public/assets/css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6"
+  },
+  "dependencies": {
+    "@digital-go-jp/tailwind-theme-plugin": "^0.1.16"
+  }
+}
